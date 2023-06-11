@@ -40,12 +40,12 @@ public class HomeworkFind10Elm {
     public void find10ElmXPath() {
         driver.findElement(By.xpath("//*[@class='header']"));
         driver.findElement(By.xpath("//*[@class='mobile-header']"));
-        //driver.findElement(By.xpath("//*[@attr='work']"));
-        //driver.findElement(By.xpath("//*[@attr='/registration']"));
-        //driver.findElement(By.xpath("//*[@attr='of']"));
+        driver.findElement(By.xpath("//a[@href='/let-car-work']"));
+        driver.findElement(By.xpath("//a[@href='/search']"));
+        driver.findElement(By.xpath("//a[@href='/terms-of-use']"));
         driver.findElement(By.xpath("//input[@id='dates']"));
         driver.findElement(By.xpath("//input[@id='city']"));
-        //driver.findElement(By.xpath("//input[@type='submit']"));
+        driver.findElement(By.xpath("//input[@type='text']"));
         driver.findElement(By.xpath("//*[@class='logo']"));
         driver.findElement(By.xpath("//*[@class='input-label']"));
         driver.findElement(By.xpath("//*[contains(.,'Find your car now!')]"));
